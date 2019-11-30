@@ -288,7 +288,7 @@ select
 		c.setMechReplyDoubt( regNo, subject,doubt,answer);
 		out.println("<script type=\"text/javascript\">");
 		out.println("confirm('Posting is successfull  Click ok');");
-		out.println("location='cse.jsp';");
+		out.println("location='mech.jsp';");
 		out.println("</script>");
 	}
 %>
