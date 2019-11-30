@@ -290,7 +290,7 @@ select
 		c.setCivReplyDoubt( regNo,subject,doubt,answer);
 		out.println("<script type=\"text/javascript\">");
 		out.println("confirm('Posting is successfull  Click ok');");
-		out.println("location='cse.jsp';");
+		out.println("location='civ.jsp';");
 		out.println("</script>");
 	}
 %>
