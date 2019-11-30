@@ -279,8 +279,8 @@ String subject=request.getParameter("subject");
 					  while(rs1.next())
 					  {%>
 					<div class="border1">  					
-					<p class="regNo"><%= rs.getString(1) %></p>
-					<p class="date"><%= rs.getString("askDoubt_date") %></p>
+					<p class="regNo"><%= rs1.getString(1) %></p>
+					<p class="date"><%= rs1.getString("replyDoubt_date") %></p>
 					 </div> 
 					<p class="answer"><%=rs1.getString("answer")%></p>
 			
